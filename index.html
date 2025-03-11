@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Host - Your Government Resource</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #343a40;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2, h3 {
+            color: #004085;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.6em;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: #007bff;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        /* Background Image Section */
+        .hero-section {
+            height: 60vh;
+            background-image: url('1234.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 4em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+
+            .navbar a {
+                float: none;
+                text-align: left;
+                border-bottom: 1px solid #0056b3;
+            }
+
+            .navbar a:last-child {
+                border-bottom: none;
+            }
+
+            .hero-section h1 {
+                font-size: 2.5em;
+            }
+        }
+
+        /* Initially Hide Sections (Except Home) */
+        #insights, #data, #contact {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#" data-target="home">Home</a>
+        <a href="#" data-target="insights">Insights</a>
+        <a href="#" data-target="data">Data</a>
+        <a href="#" data-target="contact">Contact</a>
+    </div>
+
+    <div class="hero-section">
+        <h1></h1>
+    </div>
+
+    <div class="container" id="home">
+        <h1>Workforce Demographics in India: A Comprehensive Survey</h1>
+        <p>The Indian workforce is evolving rapidly, driven by changes in education, employment opportunities, and financial growth. To gain deeper insights into the demographic profile of working professionals in India, we conducted an extensive survey across various industries and job roles. This study provides a data-driven understanding of employees’ backgrounds, career trends, and income levels, helping businesses, policymakers, and job seekers make informed decisions.</p>
+        <h2>Objective of the Survey</h2>
+        <p>The primary goal of this survey was to analyze key demographic factors that shape the professional landscape in India, including:</p>
+        <ul>
+            <li>Gender Distribution – Understanding workforce diversity.</li>
+            <li>Age Groups – Identifying the dominant working-age segments.</li>
+            <li>Education Levels – Evaluating academic qualifications.</li>
+            <li>Marital Status – Analyzing lifestyle and social factors.</li>
+            <li>Employment Sectors – Differentiating between private and government job roles.</li>
+            <li>Annual Household Income – Measuring financial stability and economic growth.</li>
+        </ul>
+        <h2>Scope & Methodology</h2>
+        <p>This survey was conducted among employees from different regions of India, covering both private and government sector professionals. The data collected represents a broad spectrum of job roles, income brackets, and educational qualifications, reflecting the diverse workforce of the country.</p>
+        <p>The findings of this survey serve as a valuable resource for businesses, recruiters, policymakers, and individuals looking to understand the employment trends, income distribution, and financial capabilities of professionals in India.</p>
+        <p>Explore the detailed insights below to better understand the evolving workforce landscape in India.</p>
+
+        <h2>Demographic Insights</h2>
+        <p>Understanding the demographics of our audience is crucial for delivering relevant insights and services. Below is a detailed breakdown of the survey respondents based on gender, age, education, marital status, employment, and income levels.</p>
+
+        <h3>1. Gender Distribution</h3>
+        <p>Our respondent base consists of a diverse mix of individuals, with:</p>
+        <ul>
+            <li>✅ Male: 106 respondents (65.03%)</li>
+            <li>✅ Female: 57 respondents (34.97%)</li>
+        </ul>
+        <p>The data indicates a higher participation from male respondents.</p>
+
+        <h3>2. Age Distribution</h3>
+        <p>The age group analysis reveals that a majority of the respondents are young professionals, contributing to a dynamic and evolving workforce. The breakdown is as follows:</p>
+        <ul>
+            <li>📌 Below 20 years: 1 respondent (0.61%)</li>
+            <li>📌 21-30 years: 105 respondents (64.42%) – the largest group, primarily young professionals.</li>
+            <li>📌 31-40 years: 45 respondents (27.61%) – mid-career professionals.</li>
+            <li>📌 41-50 years: 8 respondents (4.91%) – experienced professionals and senior management.</li>
+            <li>📌 51 years and above: 4 respondents (2.45%) – senior executives and retired professionals.</li>
+        </ul>
+        <p>This data shows that the majority of respondents are in the 21-40 years age bracket, reflecting a strong presence of early and mid-career professionals.</p>
+
+        <h3>3. Educational Qualifications</h3>
+        <p>Education plays a crucial role in shaping career opportunities. The respondents come from varied academic backgrounds:</p>
+        <ul>
+            <li>🎓 Higher Secondary / Diploma: 10 respondents (6.13%)</li>
+            <li>🎓 Graduate (Bachelor’s Degree): 97 respondents (59.51%)</li>
+            <li>🎓 Postgraduate (Master’s or Higher): 56 respondents (34.74%)</li>
+        </ul>
+        <p>This data suggests that over 94% of the respondents hold at least a graduate degree, with a substantial portion having pursued postgraduate studies.</p>
+
+        <h3>4. Marital Status</h3>
+        <p>The survey highlights a nearly equal split between married and unmarried individuals:</p>
+        <ul>
+            <li>💍 Married: 85 respondents (52.15%)</li>
+            <li>💑 Unmarried: 78 respondents (47.85%)</li>
+        </ul>
+        <p>This data helps understand the lifestyle preferences and financial planning tendencies of the respondents.</p>
+
+        <h3>5. Employment Status</h3>
+        <p>Employment trends indicate that the private sector dominates, with a smaller share of respondents in government jobs:</p>
+        <ul>
+            <li>🏢 Government Employees: 11 respondents (6.75%)</li>
+            <li>🏦 Private Sector Employees: 152 respondents (93.25%)</li>
+        </ul>
+        <p>This insight suggests that the majority of respondents are part of the corporate and private sector workforce, which influences their career growth, income levels, and investment behaviors.</p>
+
+        <h3>6. Annual Household Income</h3>
+        <p>Financial stability and income levels play a crucial role in shaping spending patterns, investment decisions, and economic security. The respondents’ income distribution is as follows:</p>
+        <ul>
+            <li>💰 Below Rs. 2.5 lakh: 20 respondents (12.27%)</li>
+            <li>💰 Rs. 2.5 lakh - Rs. 5 lakh: 50 respondents (30.67%)</li>
+            <li>💰 Rs. 5 lakh - Rs. 10 lakh: 60 respondents (36.81%) – the highest percentage.</li>
+            <li>💰 Rs. 10 lakh and above: 33 respondents (20.25%)</li>
+        </ul>
+        <p>The data suggests that over 57% of respondents earn more than Rs. 5 lakh annually, indicating strong financial backgrounds and potential investment capabilities.</p>
+
+        <h3>Key Takeaways</h3>
+        <ul>
+            <li>🔹 Majority of respondents (64.42%) are between 21-30 years, reflecting a young and dynamic workforce.</li>
+            <li>🔹 94% of respondents hold at least a graduate degree, with 34.74% having a postgraduate degree.</li>
+            <li>🔹 A nearly equal split between married and unmarried individuals.</li>
+            <li>🔹 Private sector employment dominates (93.25%), with only 6.75% working in government roles.</li>
+            <li>🔹 Over 57% of respondents earn more than Rs. 5 lakh annually, suggesting strong financial potential.</li>
+        </ul>
+        <p>This demographic report provides valuable insights into the audience’s background, allowing businesses, policymakers, and analysts to understand their preferences, challenges, and economic potential.</p>
+    </div>
+
+    <div class="container" id="insights">
+        <h2>Insights</h2>
+        <p>Workforce Demographics in India: A Comprehensive Survey</p>
+
+        <p>The Indian workforce is evolving rapidly, driven by changes in education, employment opportunities, and financial growth. To gain deeper insights into the demographic profile of working professionals in India, we conducted an extensive survey across various industries and job roles. This study provides a data-driven understanding of employees’ backgrounds, career trends, and income levels, helping businesses, policymakers, and job seekers make informed decisions.</p>
+
+        <p>Objective of the Survey</p>
+
+        <p>The primary goal of this survey was to analyze key demographic factors that shape the professional landscape in India, including:
+            Gender Distribution – Understanding workforce diversity.
+            Age Groups – Identifying the dominant working-age segments.
+            Education Levels – Evaluating academic qualifications.
+            Marital Status – Analyzing lifestyle and social factors.
+            Employment Sectors – Differentiating between private and government job roles.
+            Annual Household Income – Measuring financial stability and economic growth.</p>
+
+        <p>Scope & Methodology</p>
+
+        <p>This survey was conducted among employees from different regions of India, covering both private and government sector professionals. The data collected represents a broad spectrum of job roles, income brackets, and educational qualifications, reflecting the diverse workforce of the country.</p>
+
+        <p>The findings of this survey serve as a valuable resource for businesses, recruiters, policymakers, and individuals looking to understand the employment trends, income distribution, and financial capabilities of professionals in India.</p>
+
+        <p>Explore the detailed insights below to better understand the evolving workforce landscape in India.</p>
+    </div>
+
+    <div class="container" id="data">
+        <h2>Data</h2>
+
+        <p>The demographic data highlights the key characteristics of the surveyed population. The gender distribution shows that 65.03% of the participants are male, while 34.97% are female. In terms of age, the majority of respondents (64.42%) fall within the 21-30 years age group, followed by 27.61% in the 31-40 years category. A smaller percentage of participants are aged 41-50 years (4.91%), 51 years and above (2.45%), and below 20 years (0.61%).</p>
+
+        <p>Regarding educational qualifications, 59.51% of respondents hold a graduate degree, while 34.74% have completed postgraduate education. Only 6.13% have completed higher secondary education or a diploma. The marital status of the participants is fairly balanced, with 52.15% married and 47.85% unmarried.</p>
+
+        <p>In terms of employment, the majority of the respondents (93.25%) are employed in the private sector, while 6.75% work as government employees. The annual household income of the participants varies, with 36.81% earning between Rs. 5 lakh - Rs. 10 lakh, 30.67% earning between Rs. 2.5 lakh - Rs. 5 lakh, 20.25% earning Rs. 10 lakh and above, and 12.27% earning below Rs. 2.5 lakh.</p>
+
+        <p>This demographic overview provides valuable insights into the diverse backgrounds of the participants, reflecting their education, employment, and income distribution. The survey provides a comprehensive insight into the demographic distribution of respondents based on gender, age, education, marital status, employment, and household income.</p>
+
+        <h3>Gender Distribution</h3>
+
+        <p>The respondent pool consists of 106 males (65.03%) and 57 females (34.97%), indicating a higher participation from male respondents.</p>
+
+        <h3>Age Group</h3>
+
+        <p>A significant majority of respondents, 105 individuals (64.42%), belong to the 21-30 years age group. This is followed by 45 respondents (27.61%) in the 31-40 years category. A smaller portion of participants fall into the 41-50 years range (8 individuals, 4.91%) and 51 years and above (4 individuals, 2.45%). The youngest group, those below 20 years, accounts for only 1 respondent (0.61%).</p>
+
+        <h3>Education Level</h3>
+
+        <p>The educational background of respondents is diverse, with the majority being graduates (97 respondents, 59.51%). Additionally, 56 individuals (34.74%) have pursued postgraduate education, while 10 respondents (6.13%) have completed their education at the higher secondary/diploma level.</p>
+
+        <h3>Marital Status</h3>
+
+        <p>The survey results show a nearly balanced distribution between married and unmarried respondents. 85 individuals (52.15%) are married, while 78 respondents (47.85%) are unmarried.</p>
+
+        <h3>Employment Status</h3>
+
+        <p>The vast majority of respondents, 152 individuals (93.25%) are employed in the private sector, while a smaller segment, 11 respondents (6.75%), work as government employees.</p>
+
+        <h3>Annual Household Income</h3>
+
+        <p>The income distribution among respondents varies across different income brackets:</p>
+        <ul>
+            <li>Below Rs. 2.5 lakh: 20 respondents (12.27%)</li>
+            <li>Rs. 2.5 lakh - Rs. 5 lakh: 50 respondents (30.67%)</li>
+            <li>Rs. 5 lakh - Rs. 10 lakh: 60 respondents (36.81%)</li>
+            <li>Rs. 10 lakh and above: 33 respondents (20.25%)</li>
+        </ul>
+
+        <p>This demographic breakdown provides key insights into the background of the respondents, helping to understand their professional and financial standing, as well as their educational and marital status.</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <p>If you have any queries or need further information, please feel free to contact.</p>
+        <p>
+        Contact Number: +91 7319108277
+        </p>
+    </div>
+
+    <script>
+        // Get all the navbar links
+        const navLinks = document.querySelectorAll('.navbar a');
+
+        // Get all the content sections
+        const contentSections = document.querySelectorAll('.container');
+
+        // Function to hide all content sections
+        function hideAllSections() {
+            contentSections.forEach(section => {
+                section.style.display = 'none';
+            });
+        }
+
+        // Add click event listeners to the navbar links
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default link behavior
+
+                // Get the target section from the data-target attribute
+                const target = this.dataset.target;
+
+                // Hide all sections
+                hideAllSections();
+
+                // Show the target section
+                document.getElementById(target).style.display = 'block';
+            });
+        });
+
+        // Initially show the home section
+        document.getElementById('home').style.display = 'block';
+    </script>
+
+</body>
+</html>
